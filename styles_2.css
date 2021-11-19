@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+:root{
+	color: #2D2E83;
+	color: #1d71b8;
+	color: #36a9e1;
+	color: #3aaa35;
+	color: #95c11f;
+	
+	
+	
+}
+	
+	
+	
+
+
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	
+	
+	
+}
+body{
+	font-family: 'Roboto', sans-serif;	
+}
+
+.container{
+	width: 90%;
+	max-width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 100px 0;
+	height: auto;
+}
+
+.container_modifier{
+	width: 10%;
+	
+}
+.hero{
+	width: 100%;
+	min-height:  0vh;
+	background: #FFFFFF;
+	
+}
+
+.nav_hero{
+	color: #000000;
+	height: 70px;
+
+
+}
+.nav_container{
+	
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: inherit;
+	padding: 0;	
+	
+}
+.logo_name{
+	font-size: 24px;
+	color: #000000;
+}
+.link{
+	display: inline-block;
+	color: #000000;
+	text-decoration: none;
+	font-weight: 300;
+	padding: 10px;
+}
+
+.point{
+	color: #95c11f;
+}
+
+.hero_main{
+	display: flex;
+	align-items: center;
+	padding: 0;
+	justify-content: space-between;
+	height:  calc(100vh - 70px)
+}
+
+
+
+.hero_text{
+	width: 48%;
+}
+
+/*reservas*/
+
+.container{
+	
+}
+
+.Reservas-Biologicas{
+	width: inherit;
+	
+}
+
+.subtitle{
+	font-size: 42px;
+	text-align: center
+		
+}
+.container-card{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 40px;
+}
+.card-1{
+	width: 100%;
+ padding: 30px 0;
+	overflow: hidden;
+	background:#95c11f ;
+	 border-radius: 10px;
+	position: relative;
+	text-align: right;
+	margin-bottom: 60px;
+	
+}
+
+.card-img{
+	text-align: center;
+	width: 95%;
+	height: 500px;
+	object-fit: cover;
+	border-radius: 10px 10px;
+	float: right;
+	box-sizing: border-box;
+}
+.card-text{
+	width: 95%;
+	margin-left: auto;
+	padding-right: 25px;
+}
+.card-title{
+	font-size: 35px;
+	color: #FFFFFF ;
+	margin-bottom: 8px;
+}
+.card-list{
+	color: #FFFFFF;
+	font-size: 30px;
+}
+.card-copy{
+	
+	color: #FFFFFF; 
+}
+footer{
+	background: #1d71b8;
+	height: auto;
+	width: 100vw ;
+	padding-top: 1px;
+	margin-top: 100px;
+	color: #FBFBFB;
+}
+
+.footer_content{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	
+}
+.footer_content h3{
+	font-size: 1.8rem;
+	font-weight: 400;
+	text-transform: capitalize;
+	line-height: 3rem;
+}
+
+.footer_content p{
+	max-width: 500px;
+	margin: 10px auto;
+	line-height: 28px;
+	font-size: 14px;
+}
+
+.socialmedia_legend{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 1rem 0 3rem 0;
+	
+}
+
+.socialmedia_legend{
+	margin: 0 10px;
+}
+
+.socialmedia_legend{
+	text-decoration: none;
+	color: #FFFFFF;
+	
+}
+.socialmedia_legend{
+	font-size: 1.1rem;
+	transition: color .4s ease;
+}
+
+
+
+.footer-bottom{
+	background:#2D2E83;
+	width: 100vw;
+	padding: 20px 0;
+	text-align: center;
+}
+.footer-bottom p{
+	font-size: 14px;
+	word-spacing: 2px;
+	text-transform: capitalize;
+	
+}
+.footer-bottom spam{
+	text-transform: uppercase;
+	opacity: .4;
+	font-weight: 200;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
